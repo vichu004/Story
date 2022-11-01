@@ -1,0 +1,25 @@
+step 1:
+ 	need to init git by command ---"git init"
+step 2:
+	need to create files of version 
+step3:
+	now need to add the version files to the git repository with 
+the command --- "git add <file name>"
+
+
+step4:(creating_remote)
+	now we need to create a remote repository 
+command --->"git remote add <name_of_remote> git https://github.com/vichu004/Story.git"
+step5:(adding files to remote)
+	now we are going to add the files to remote
+command --->	"git push -u <name_of_remote> master"
+
+\\\\\----=| general commands |=---\\\\
+
+git status ---> to check the files added to the git repository
+git add ----> to add files to the git repository
+git log ----> to check the commit made 
+git commit -m "<enter the commit here>" ----> to add the commit to the version file
+git diff <file name> ---> this will show the diffrence in the file which is the local storage and in git storage 
+git checkout <file_name> ---> this will change the file in the local storage with the git storage 
+git clone <path_of_original_repository> --->this code will clone the same project files in the given repository
