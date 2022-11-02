@@ -22,6 +22,7 @@ git log ----> to check the commit made
 git commit -m "<enter the commit here>" ----> to add the commit to the version file
 git diff <file name> ---> this will show the diffrence in the file which is the local storage and in git storage 
 git checkout <file_name> ---> this will change the file in the local storage with the git storage 
+<<<<<<< HEAD
 git clone <path_of_original_repository> --->this code will clone the same project files in the given repository
 
 git checkout <branch_name>  ---> used to create a branch in which 
@@ -32,3 +33,6 @@ git branch --> this will show that curently you are in which branch
 
 git checkout <branch_name> ---> this command is used for both creating and 
 	navigating through the branches in your project
+=======
+git clone <path_of_original_repository> --->this code will clone the same project files in the given repository
+>>>>>>> test
